@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* aca se trabaja el fondo de la pagina */
+body {
+margin: 3.5rem 0 0 0;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+overflow-x: hidden;
+font-size: 0.938rem;
+background: linear-gradient(90deg, #183da4 0%, #08174a 50%);
+color: #fff;
+display: grid;
+align-items: center;
+}
+/* aca se trabaja con el Nombre de la Pagina */
+.Contenedor{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+/* aca se trabaja la imagen del perfil */
+.Perfil {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+/* aca se trabaja el contenido o texto que va en la pagina */
+.Contenido {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 40px;
+  
+}
+/* aca se trabaja el color de los correos */
+.correopersonal {
+  color:rgb(0,145,255);
+}
+.correoeducativo {
+  color:rgb(0,145,255);
+}
+/* aca se trabaja con el footer o el pie de pagina */
+.footer {
+  background-color: #202020;
+  color:white
+  width: 960px;
+  margin:0px;
+  padding:20px 10px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
